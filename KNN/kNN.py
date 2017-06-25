@@ -2,11 +2,13 @@
 from numpy import *
 import operator
 
+#创建数据集
 def createDataSet():
     group = array([[1.0,1.1],[1.0,1.0],[0,0],[0,0.1]])
     labels = ['A','A','B','B']
     return group,labels
 
+#kNN分类算法
 def classify0(inX,dataSet,labels,k):
     dataSetSize = dataSet.shape[0] #sh数据集长度，4
 
