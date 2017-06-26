@@ -73,9 +73,11 @@ def file2matrix(filename):
         classLabelVector.append(int(listFromLine[-1]))#将标签结果放在classLabelVector
         index +=1
     return returnMat,classLabelVector
-
+''' 
+    将字典转化为列表
+'''
 def dict2list(dic:dict):
-    ''' 将字典转化为列表 '''
+
     keys = dic.keys()
     vals = dic.values()
     lst = [(key, val) for key, val in zip(keys, vals)]
