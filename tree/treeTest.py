@@ -14,5 +14,6 @@ retDataSet = Tree.splitDataSet(dataSet,0,1)
 print(retDataSet)
 print('----------')
 
+#测试选择最好的特征值去构建树
 bsetFeature = Tree.chooseBestFeatureToSplit(dataSet)
 print(bsetFeature)
