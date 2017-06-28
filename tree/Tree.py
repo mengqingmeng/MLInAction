@@ -1,5 +1,6 @@
 #coding=utf-8
 from math import log
+import operator
 def createDataSet():
     dataSet = [[1,1,'yes']
                ,[1,1,'yes']
