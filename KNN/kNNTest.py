@@ -1,5 +1,5 @@
 #coding=utf-8
-from knn import kNN
+from KNN import kNN
 
 #测试创建数据集
 group,labels = kNN.createDataSet()
